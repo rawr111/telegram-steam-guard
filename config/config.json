@@ -1,0 +1,29 @@
+{
+    "token": "",
+    "users": {
+        "617614933":[
+            {
+                "login":"bobana",
+                "password":"twreafs",
+                "shared_secret": "rwes="
+            },
+            {
+                "login":"bobana2",
+                "password":"twreafs",
+                "shared_secret": "asfsdfwfe"
+            },
+            {
+                "login":"yedytdfghc",
+                "password":"uiyfvgb",
+                "shared_secret": "uii6rtut67r"
+            }
+        ],
+        "765457":[
+            {
+                "login":"bobana",
+                "password":"utifituhg",
+                "shared_secret": "imqIYnGw5lnIjQ8Mf+DUVFvcwM8="
+            }
+        ]
+    }
+}
