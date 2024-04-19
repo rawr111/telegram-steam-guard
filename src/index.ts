@@ -1,5 +1,5 @@
 import TelegramBot from "node-telegram-bot-api";
-import messageHandler from './messageHandler';
+import messageHandler from "./messageHandler";
 import { getConfigSync } from "./configReader";
 
 const token = getConfigSync().token;
@@ -11,3 +11,7 @@ bot.on("message", async (msg) => {
   const reply = await messageHandler(msg.text, msg.from?.id);
   bot.sendMessage(chatId, reply);
 });
+
+const func = () => {
+  console.log("random func");
+};
